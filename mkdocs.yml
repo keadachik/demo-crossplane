@@ -14,7 +14,7 @@ nav:
   - 'Recap, Cleanup and Next Steps':
     - 'Cleanup': cleanup.md
     - 'Resources': resources.md
-    - "What's Next?": whats-next.md
+    # - "What's Next?": whats-next.md
 theme:
   name: material
   custom_dir: docs/overrides
