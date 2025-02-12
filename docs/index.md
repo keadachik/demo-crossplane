@@ -2,6 +2,7 @@
 
 --8<-- "snippets/disclaimer.md"
 --8<-- "snippets/view-code.md"
+--8<-- "snippets/bizevent-homepage.js"
 
 In this hands-on demo, you will use [Crossplane](https://crossplane.io){target=_blank} and [Terraform](https://docs.dynatrace.com/docs/manage/configuration-as-code/terraform){target=_blank} configuration as code to keep Dynatrace in sync automatically.
 

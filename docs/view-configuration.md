@@ -1,5 +1,7 @@
 ## See Tags in Dynatrace
 
+--8<-- "snippets/bizevent-view-configuration.js"
+
 `config_as_code/main.tf` contains a single auto-tag rule called `created-by-crossplane`.
 
 That auto tag should now exist in your Dynatrace environment.

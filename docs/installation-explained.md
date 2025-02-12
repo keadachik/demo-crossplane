@@ -1,5 +1,7 @@
 ## Wait for System
 
+--8<-- "snippets/bizevent-installation-explained.js"
+
 The system may still be loading.
 
 Wait until the `Running postCreate command` loading spinner disappears.
