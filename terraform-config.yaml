@@ -41,8 +41,8 @@ spec:
                       key: DYNATRACE_API_TOKEN
               # for demo purposes
               # run in -d debug mode
-              # also poll for changes more quickly (every 1m)
+              # also poll for changes more quickly (every 30s)
               args:
                 - -d
-                - --poll=1m
+                - --poll=30s
                 - --max-reconcile-rate=10

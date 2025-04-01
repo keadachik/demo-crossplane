@@ -10,7 +10,7 @@ Remember that Crossplane is managing `config_as_code/main.tf` so let's comment o
     In the real-world, you would simply delete the file rather than comment it out.
     For demo purposes, we want you to still have the configuration for reference - hence we comment things out instead.
 
-Crossplane will (after 1min) rescan your Git repo and notice the change (tag exists on Dynatrace but according to the repository, it shouldn't). Crossplane will then delete the tag from Dynatrace.
+Crossplane will (after 30 seconds) rescan your Git repo and notice the change (tag exists on Dynatrace but according to the repository, it shouldn't). Crossplane will then delete the tag from Dynatrace.
 
 ```{ "name": "comment out tag" }
 # Surround existing content with /* ... */ to comment it out
@@ -22,10 +22,10 @@ git commit -m "comment out tag"
 git push
 ```
 
-!!! info "Wait for 1min"
-    Remember to wait for 1 minute as that's how often Crossplane is configured to sync.
+!!! info "Wait for 30 seconds"
+    Remember to wait for 30 seconds as that's how often Crossplane is configured to sync.
 
-After 1 minute, refresh the Classic Settings app, Automatically applied tags settings page:
+After 30 seconds, refresh the Classic Settings app, Automatically applied tags settings page:
 
 For example:
 ```
