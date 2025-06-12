@@ -16,13 +16,6 @@ In this hands-on demo, you will use [Crossplane](https://crossplane.io){target=_
 
 ![logical flow](images/auto-tags-dt-ui.png)
 
-## Compatibility
-
-| Deployment         | Tutorial Compatible |
-|--------------------|---------------------|
-| Dynatrace Managed  | ✔️                 |
-| Dynatrace SaaS     | ✔️                 |
-
 !!! warning "Fork Repo"
     Fork [this repo](https://github.com/dynatrace/demo-crossplane){target=_blank} before continuing!
 
